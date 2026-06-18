@@ -1,0 +1,74 @@
+# Odisseu Capabilities - Capacidades Disponíveis
+# Define as funcionalidades do agente inteligente
+
+capabilities:
+  
+  code_analysis:
+    name: "Análise de Código"
+    description: "Análise inteligente de qualidade e patterns de código"
+    enabled: true
+    features:
+      - code_quality_metrics
+      - complexity_analysis
+      - anti_pattern_detection
+      - performance_analysis
+  
+  code_generation:
+    name: "Geração de Código"
+    description: "Geração automática de código baseada em requisitos"
+    enabled: true
+    features:
+      - boilerplate_generation
+      - test_generation
+      - documentation_generation
+      - refactoring_suggestions
+  
+  documentation:
+    name: "Documentação"
+    description: "Geração e manutenção automática de documentação"
+    enabled: true
+    features:
+      - readme_generation
+      - api_documentation
+      - code_comments
+      - changelog_management
+  
+  testing:
+    name: "Testes Automatizados"
+    description: "Geração e execução de testes inteligentes"
+    enabled: true
+    features:
+      - unit_test_generation
+      - integration_test_generation
+      - coverage_analysis
+      - test_optimization
+  
+  deployment:
+    name: "Deployment Inteligente"
+    description: "Automação de deployment com validações"
+    enabled: true
+    features:
+      - pre_deployment_checks
+      - automated_deployment
+      - post_deployment_validation
+      - rollback_management
+  
+  security_scanning:
+    name: "Scanning de Segurança"
+    description: "Detecção de vulnerabilidades e issues de segurança"
+    enabled: true
+    features:
+      - vulnerability_detection
+      - dependency_scanning
+      - secret_detection
+      - compliance_checking
+  
+  pull_request_management:
+    name: "Gerenciamento de PRs"
+    description: "Automação inteligente de pull requests"
+    enabled: true
+    features:
+      - auto_review
+      - auto_labeling
+      - conflict_detection
+      - merge_optimization
